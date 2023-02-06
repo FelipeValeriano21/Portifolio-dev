@@ -1,0 +1,240 @@
+.navbar{
+
+    background-color: black;
+
+}
+
+.navbar-brand{
+
+    color: white;
+    font-family: inherit;
+    font-size: 23px;
+
+}
+
+.nav-link{
+
+    color: white;
+    float: right;
+    border-right: 1px solid white;
+    
+
+}
+
+.nav-link:hover{
+
+    
+    color: gold;
+   
+}
+
+#felipefoto{
+
+    position: relative;
+    top: 40px;
+    border: 7px solid black;
+
+}
+
+h1 {
+    font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid rgb(0, 0, 0);
+    color: rgb(3, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    position: relative;
+    top: 15px;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 75%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: rgb(255, 204, 0);
+    }
+    to {
+      border-color: transparent;
+    }
+}
+
+#biography{
+
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-content: "justify";
+
+}
+
+.home{
+
+border-bottom: 5px black solid;
+height: 650px;
+background-color: rgb(246, 238, 166);
+
+
+}
+
+
+.botao{
+
+  
+    position: relative;
+    top: 60px;
+    width: 400px;
+    left: -120px;
+
+}
+
+#linkedin, #github, #curriculo{
+
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(255, 217, 0);
+    font-size: 13px;
+    height: 40px;
+    width: 100px;
+
+}
+
+#felipefoto:hover{
+
+    border: 3px solid gold;
+    
+}
+
+.titulo{
+
+ flex-direction: column;
+ align-items: center;
+ display: flex;
+ position: relative;
+ top: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 40px;
+ color: black;
+
+}
+
+.what{
+
+    height: 750px;
+    border-bottom: 3px solid black;
+    background-color: rgb(246, 238, 166);
+
+}
+
+.nav{
+
+    display: fixed;
+
+}
+
+.projects{
+
+  height: 750px;
+  border-bottom: 3px solid black;
+  background-color: rgb(246, 238, 166);
+}
+
+.enviar{
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact{
+
+  height: 350px;
+
+}
+
+footer{
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+
+}
+
+@media (max-width: 1200px)
+{
+  #biography
+   {
+    color: black;
+    font-size: 15px;
+   }
+}
+
+body{
+
+  background-color: rgb(246, 238, 166);
+}
+
+@media (max-width: 500px)
+{
+  .home
+   {
+
+    height: 1200px;
+    
+   }
+   .botao {
+
+    background-color: rgb(246, 238, 166);
+    height: 150px;
+    left: -27px;
+
+   }
+
+   #linkedin {
+   position: relative;
+  
+
+   }
+
+   #github{
+
+    position: relative;
+    left: 125px;
+    top:-40px
+   }
+
+   #curriculo{
+
+    position: relative;
+    left: 255px;
+    top:-80px
+
+   }
+
+   .what{
+
+    background-color: rgb(246, 238, 166);
+    height: 1800px; 
+
+   }
+
+   #felipefoto {
+
+    width: 4000px;
+
+   }
+
+
+}
+
